@@ -1,0 +1,8 @@
+Línea 245: la clase RichTextLib.RichTextBox del control RecTxt no era una clase de control cargada.
+Línea 253: el nombre de la propiedad _ExtentX de RecTxt no es válido.
+Línea 254: el nombre de la propiedad _ExtentY de RecTxt no es válido.
+Línea 255: el nombre de la propiedad _Version de RecTxt no es válido.
+Línea 257: el nombre de la propiedad ReadOnly de RecTxt no es válido.
+Línea 258: el nombre de la propiedad ScrollBars de RecTxt no es válido.
+Línea 259: el nombre de la propiedad DisableNoScroll de RecTxt no es válido.
+Línea 260: el nombre de la propiedad TextRTF de RecTxt no es válido.

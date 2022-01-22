@@ -1,0 +1,8 @@
+;Archivo: chars\agush.chr
+;Ultima modificacion: 19/07/2018 01:08:51
+
+[FLAGS]
+MATADOS=0
+
+[INIT]
+PW=hola123

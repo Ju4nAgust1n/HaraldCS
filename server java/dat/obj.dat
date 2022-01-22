@@ -1,0 +1,100 @@
+##############################################
+#########TIPOS  DE OBJETOS (ObjType)##########
+##############################################
+
+' 1: Comida
+' 2: Armas
+' 3: Armaduras
+' 4: Arboles
+' 5: Dinero
+' 6: Puertas
+' 7: Objetos contenedores (x ej. bolsas y cofres)
+' 8: Carteles
+' 9: Llaves
+' 10: Foros
+' 11: Pociones
+' 12: Libros
+' 13: Bebida
+' 14: Leña
+' 15: Fogata
+' 16: escudos
+' 17: cascos
+' 18: Anillos
+' 19: telep
+' 20: Muebles
+' 21: joyas
+' 22: yacimiento
+' 23: metales
+' 24: pergaminos
+' 25: aura
+' 26: Instrumentos Musicales
+' 27: Yunque
+' 28: Fragua
+' 29: Gemas
+' 30: Flores
+' 31: barcos
+' 32: flechas
+' 33: botellas vacias
+' 34: botellas llenas
+' 35: manchas
+
+
+##############################################
+#############TIPOS  DE POCIONES###############
+##############################################
+
+'1 Modifica la Agilidad
+'2 Modifica la Fuerza
+'3 Repone HP
+'4 Repone Mana
+'5 Cura Envenenamiento
+
+
+##############################################
+#############NRO DE OBJS LIBRES###############
+##############################################
+
+'cuando se pueda hay que utilizarlos, intentando
+usar primero los nros más bajos.
+
+(Todos usados)
+
+
+##############################################
+##############################################
+##############################################
+
+
+[INIT]
+Amount=2
+
+
+[OBJ1]
+Name=Manzana Roja
+GrhIndex=506
+ObjType=1
+Agarrable=0
+MinHAM=10
+Valor=2
+Crucial=1
+
+[OBJ2]
+Name=Espada Larga
+GrhIndex=504
+ObjType=2
+Agarrable=0
+Anim=21
+RazaEnanaAnim=72
+MinHit=1
+MaxHit=8
+Valor=210
+Crucial=1
+CP1=MAGO
+CP2=DRUIDA
+CP3=LADRON
+CP4=BARDO
+CP5=PIRATA
+LingH=3
+LingP=0
+LingO=0
+SkHerreria=25
